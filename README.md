@@ -32,3 +32,15 @@ The population starts with 50 snakes with completely random weights.
 │   └── /ui          # Dashboard & Rendering engine
 ├── index.html       # Entry point
 └── style.css        # Dashboard styling
+```
+
+
+🕹️ Features
+1. Training Mode: High-speed toggle to accelerate the learning process.
+2. Persistence: Save the "Best Brain" to localStorage so the AI remembers its progress after a page refresh.
+3. Live Stats: Real-time tracking of Generations, High Scores, and Active Population.
+
+🛠️ Tech Stack
+1. Language: Vanilla JavaScript (ES6+)
+2. Rendering: HTML5 Canvas API
+3. Styling: CSS3 (Modern Dark Theme)
