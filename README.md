@@ -4,6 +4,7 @@ An autonomous Snake agent that learns to play through **Evolutionary Computing**
 
 ## 🚀 Live Demo
 [→ View the AI in Action here!](https://stackpilot24.github.io/Neural-Evolution-snake-AI/)
+<img width="1409" height="882" alt="image" src="https://github.com/user-attachments/assets/4b4c29f4-f46f-42b6-81a2-65fdd6548036" />
 
 ## 🧠 How the AI Works
 
