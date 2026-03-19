@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Snake Evolution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header" style="margin-bottom: 10px; text-align: center;">
+        <h1>Neuro-Evolution Snake</h1>
+        <p>A Genetic Algorithm approach to Pathfinding</p>
+    </div>
+
+    <div id="dashboard">
+        <canvas id="gameCanvas" width="700" height="500"></canvas>
+        
+        <div class="stats-panel">
+            <div class="stat-card">
+                <span class="label">Generation</span>
+                <span id="genUI" class="value">1</span>
+            </div>
+            <div class="stat-card">
+                <span class="label">Best Score</span>
+                <span id="bestUI" class="value">0</span>
+            </div>
+            <div class="stat-card">
+                <span class="label">Brain Activity</span>
+                <canvas id="brain-viz" width="200" height="100" style="background:#000; margin-top:10px;"></canvas>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button id="saveBtn" style="background: #3b82f6;">Save Brain</button>
+                <button id="loadBtn" style="background: #8b5cf6;">Load Brain</button>
+            </div>
+            <div class="stat-card">
+                <span class="label">Active Snakes</span>
+                <span id="aliveUI" class="value">50</span>
+            </div>
+            
+            <button id="speedBtn">Toggle Training Speed</button>
+            <button id="resetBtn" style="background: #ef4444;">Reset Evolution</button>
+            
+        </div>
+
+        
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+    <script src="src/ai/neural-net.js"></script>
+    <script src="src/game/food.js"></script>
+    <script src="src/game/snake.js"></script>
+    <script src="src/ai/population.js"></script>
+    <script src="src/ui/dashboard.js"></script>
+</body>
+</html>
