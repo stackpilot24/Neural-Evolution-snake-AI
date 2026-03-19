@@ -24,7 +24,7 @@ The population starts with 50 snakes with completely random weights.
 
 
 ## 🛠️ Project Structure
-
+```text
 /snake-ai
 ├── /src
 │   ├── /ai          # Neural Network & Population logic
